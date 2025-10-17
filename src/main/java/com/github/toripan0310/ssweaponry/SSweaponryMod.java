@@ -1,6 +1,7 @@
 package com.github.toripan0310.ssweaponry;
 
 import com.github.toripan0310.ssweaponry.item.SSweaponryItems;
+import com.github.toripan0310.ssweaponry.item.SSweaponryTabs;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class SSweaponryMod
 
         //アイテムイベントバスを登録
         SSweaponryItems.register(modEventBus);
+        //クリエイティブタブイベントバスを登録
+        SSweaponryTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
