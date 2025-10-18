@@ -20,6 +20,8 @@ public class SSweaponryTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(SSweaponryItems.SSWEAPON_STAR.get());
                         pOutput.accept(SSweaponryItems.SSSMITHING_TEMPLATE.get());
+                        pOutput.accept(SSweaponryItems.WITHER_LOD.get());
+                        pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
                     }))
                     .build());
 
