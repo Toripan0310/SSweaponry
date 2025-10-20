@@ -1,0 +1,26 @@
+package com.github.toripan0310.ssweaponry.datagen;
+
+import com.github.toripan0310.ssweaponry.SSweaponryMod;
+import com.github.toripan0310.ssweaponry.block.SSweaponryBlocks;
+import com.github.toripan0310.ssweaponry.item.SSweaponryItems;
+import net.minecraft.data.PackOutput;
+import net.minecraftforge.common.data.LanguageProvider;
+
+import java.util.Locale;
+
+public class ENUSLanguageProvider extends LanguageProvider {
+    public ENUSLanguageProvider(PackOutput output) {
+        super(output, SSweaponryMod.MOD_ID, Locale.US.toString().toLowerCase());
+    }
+
+    @Override
+    protected void addTranslations() {
+        addItem(SSweaponryItems.SSWEAPON_STAR, "SSweapon Star");
+        addItem(SSweaponryItems.SSSMITHING_TEMPLATE, "SSSmithing Template");
+        addItem(SSweaponryItems.WITHER_LOD, "Wither Lod");
+        addItem(SSweaponryItems.STEEL_INGOT, "Steel Ingot");
+
+        add("creativetabs.ssweaponry_tab", "SSweaponry");
+        addBlock(SSweaponryBlocks.STEEL_BLOCK, "Steel Block");
+    }
+}
