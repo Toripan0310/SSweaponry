@@ -1,5 +1,6 @@
 package com.github.toripan0310.ssweaponry;
 
+import com.github.toripan0310.ssweaponry.block.SSweaponryBlocks;
 import com.github.toripan0310.ssweaponry.item.SSweaponryItems;
 import com.github.toripan0310.ssweaponry.item.SSweaponryTabs;
 import com.mojang.logging.LogUtils;
@@ -33,6 +34,8 @@ public class SSweaponryMod
         SSweaponryItems.register(modEventBus);
         //クリエイティブタブイベントバスを登録
         SSweaponryTabs.register(modEventBus);
+        //ブロックイベントバスを登録
+        SSweaponryBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

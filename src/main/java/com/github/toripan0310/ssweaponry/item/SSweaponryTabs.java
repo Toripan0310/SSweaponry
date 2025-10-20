@@ -1,9 +1,11 @@
 package com.github.toripan0310.ssweaponry.item;
 
 import com.github.toripan0310.ssweaponry.SSweaponryMod;
+import com.github.toripan0310.ssweaponry.block.SSweaponryBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.level.block.SculkSensorBlock;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -22,6 +24,7 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.SSSMITHING_TEMPLATE.get());
                         pOutput.accept(SSweaponryItems.WITHER_LOD.get());
                         pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
+                        pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
                     }))
                     .build());
 
