@@ -1,4 +1,4 @@
-package com.github.toripan0310.ssweaponry.datagen;
+package com.github.toripan0310.ssweaponry.datagen.server;
 
 import com.github.toripan0310.ssweaponry.block.SSweaponryBlocks;
 import com.github.toripan0310.ssweaponry.item.SSweaponryItems;
