@@ -1,0 +1,10 @@
+{
+  "entries": [
+    "ssweaponry:sssmithing_template_from_bastion_hoglin_stable",
+    "ssweaponry:sssmithing_template_from_bastion_treasure",
+    "ssweaponry:sssmithing_template_from_nether_bridge",
+    "ssweaponry:sssmithing_template_from_bastion_bridge",
+    "ssweaponry:ssweapon_star_from_wither"
+  ],
+  "replace": false
+}

@@ -3,6 +3,7 @@ package com.github.toripan0310.ssweaponry;
 import com.github.toripan0310.ssweaponry.block.SSweaponryBlocks;
 import com.github.toripan0310.ssweaponry.item.SSweaponryItems;
 import com.github.toripan0310.ssweaponry.item.SSweaponryTabs;
+import com.github.toripan0310.ssweaponry.loot.SSweaponryLootModifires;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,6 +37,8 @@ public class SSweaponryMod
         SSweaponryTabs.register(modEventBus);
         //ブロックイベントバスを登録
         SSweaponryBlocks.register(modEventBus);
+        //ルートテーブルイベントバスを登録
+        SSweaponryLootModifires.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

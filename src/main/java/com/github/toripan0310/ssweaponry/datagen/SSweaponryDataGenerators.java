@@ -7,6 +7,7 @@ import com.github.toripan0310.ssweaponry.datagen.client.SSweaponryBlockStateProv
 import com.github.toripan0310.ssweaponry.datagen.client.SSweaponryItemModelProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.SSweaponryBlockTagsProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.SSweaponryRecipeProvider;
+import com.github.toripan0310.ssweaponry.datagen.server.loot.SSweaponryGlobalLootModifierProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.loot.SSweaponryLootTables;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -38,6 +39,7 @@ public class SSweaponryDataGenerators {
         generator.addProvider(event.includeServer(), new SSweaponryRecipeProvider(packOutput));
         generator.addProvider(event.includeServer(), SSweaponryLootTables.create(packOutput));
         generator.addProvider(event.includeServer(), new SSweaponryBlockTagsProvider(packOutput, lookUpProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new SSweaponryGlobalLootModifierProvider(packOutput));
 
     }
 }
