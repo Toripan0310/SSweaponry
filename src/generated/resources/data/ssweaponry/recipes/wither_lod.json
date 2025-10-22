@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "ssweaponry:steel_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:nether_star"
+    },
+    "y": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "pattern": [
+    "iyi",
+    "ixi",
+    "isi"
+  ],
+  "result": {
+    "item": "ssweaponry:wither_lod"
+  },
+  "show_notification": true
+}
