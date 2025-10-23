@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ssweaponry:ssweapon_star_tier3"
+  },
+  "base": {
+    "item": "ssweaponry:netherite_sword_plus2"
+  },
+  "result": {
+    "item": "ssweaponry:netherite_sword_plus3"
+  },
+  "template": {
+    "item": "ssweaponry:sssmithing_template"
+  }
+}

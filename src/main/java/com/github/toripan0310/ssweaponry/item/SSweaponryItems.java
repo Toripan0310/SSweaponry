@@ -18,6 +18,8 @@ public class SSweaponryItems {
             .rarity(Rarity.RARE)));
     public static final RegistryObject<Item> SSWEAPON_STAR_TIER2 = ITEMS.register("ssweapon_star_tier2", () -> new SSweaponStarItem(new Item.Properties()
             .rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SSWEAPON_STAR_TIER3 = ITEMS.register("ssweapon_star_tier3", () -> new SSweaponStarItem(new Item.Properties()
+            .rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> SSSMITHING_TEMPLATE = ITEMS.register("sssmithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WITHER_LOD = ITEMS.register("wither_lod", () -> new Item(new Item.Properties()));
@@ -53,6 +55,7 @@ public class SSweaponryItems {
                     5,
                     -1.7f,
                     new Item.Properties().fireResistant()));
+    //Plus2
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS2 = ITEMS.register("wooden_sword_plus2", () ->
             new GlowingSwordItem(Tiers.WOOD,
                     6,
@@ -62,7 +65,7 @@ public class SSweaponryItems {
             new GlowingSwordItem(Tiers.STONE,
                     6,
                     -2f,
-                    new Item.Properties().fireResistant()));
+                    new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> IRON_SWORD_PLUS2 = ITEMS.register("iron_sword_plus2", () ->
             new GlowingSwordItem(Tiers.IRON,
                     6,
@@ -72,7 +75,7 @@ public class SSweaponryItems {
             new GlowingSwordItem(Tiers.GOLD,
                     6,
                     -1.8f,
-                    new Item.Properties().fireResistant()));
+                    new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> DIAMOND_SWORD_PLUS2 = ITEMS.register("diamond_sword_plus2", () ->
             new GlowingSwordItem(Tiers.DIAMOND,
                     6,
@@ -83,6 +86,37 @@ public class SSweaponryItems {
                     6,
                     -1.6f,
                     new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON)));
+    //Plus3
+    public static final RegistryObject<Item> WOODEN_SWORD_PLUS3 = ITEMS.register("wooden_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.WOOD,
+                    7,
+                    -2f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> STONE_SWORD_PLUS3 = ITEMS.register("stone_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.STONE,
+                    7,
+                    -1.9f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> IRON_SWORD_PLUS3 = ITEMS.register("iron_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.IRON,
+                    7,
+                    -1.8f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> GOLDEN_SWORD_PLUS3 = ITEMS.register("golden_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.GOLD,
+                    7,
+                    -1.7f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> DIAMOND_SWORD_PLUS3 = ITEMS.register("diamond_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.DIAMOND,
+                    7,
+                    -1.6f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> NETHERITE_SWORD_PLUS3 = ITEMS.register("netherite_sword_plus3", () ->
+            new GlowingSwordItem(Tiers.NETHERITE,
+                    7,
+                    -1.5f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
 
 
     //アイテムイベントバスを作成

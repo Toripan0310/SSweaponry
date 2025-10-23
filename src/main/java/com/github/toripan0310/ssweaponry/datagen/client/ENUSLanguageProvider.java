@@ -17,6 +17,7 @@ public class ENUSLanguageProvider extends LanguageProvider {
     protected void addTranslations() {
         addItem(SSweaponryItems.SSWEAPON_STAR, "SSweapon Star");
         addItem(SSweaponryItems.SSWEAPON_STAR_TIER2, "SSweapon Star Tier2");
+        addItem(SSweaponryItems.SSWEAPON_STAR_TIER3, "SSweapon Star Tier3");
         addItem(SSweaponryItems.SSSMITHING_TEMPLATE, "SSSmithing Template");
         addItem(SSweaponryItems.WITHER_LOD, "Wither Lod");
         addItem(SSweaponryItems.STEEL_INGOT, "Steel Ingot");
@@ -32,6 +33,12 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.GOLDEN_SWORD_PLUS2, "Golden Sword+2");
         addItem(SSweaponryItems.DIAMOND_SWORD_PLUS2, "Diamond Sword+2");
         addItem(SSweaponryItems.NETHERITE_SWORD_PLUS2, "Netherite Sword+2");
+        addItem(SSweaponryItems.WOODEN_SWORD_PLUS3, "Wooden Sword+3");
+        addItem(SSweaponryItems.STONE_SWORD_PLUS3, "Stone Sword+3");
+        addItem(SSweaponryItems.IRON_SWORD_PLUS3, "Iron Sword+3");
+        addItem(SSweaponryItems.GOLDEN_SWORD_PLUS3, "Golden Sword+3");
+        addItem(SSweaponryItems.DIAMOND_SWORD_PLUS3, "Diamond Sword+3");
+        addItem(SSweaponryItems.NETHERITE_SWORD_PLUS3, "Netherite Sword+3");
 
         add("creativetabs.ssweaponry_tab", "SSweaponry");
         addBlock(SSweaponryBlocks.STEEL_BLOCK, "Steel Block");
