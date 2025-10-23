@@ -25,6 +25,31 @@ public class SSweaponryItems {
                     5,
                     -2.2f,
                     new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STONE_SWORD_PLUS1 = ITEMS.register("stone_sword_plus1", () ->
+            new GlowingSwordItem(Tiers.STONE,
+                    5,
+                    -2.1f,
+                    new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> IRON_SWORD_PLUS1 = ITEMS.register("iron_sword_plus1", () ->
+            new GlowingSwordItem(Tiers.IRON,
+                    5,
+                    -2f,
+                    new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> GOLDEN_SWORD_PLUS1 = ITEMS.register("golden_sword_plus1", () ->
+            new GlowingSwordItem(Tiers.GOLD,
+                    5,
+                    -1.9f,
+                    new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> DIAMOND_SWORD_PLUS1 = ITEMS.register("diamond_sword_plus1", () ->
+            new GlowingSwordItem(Tiers.DIAMOND,
+                    5,
+                    -1.8f,
+                    new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_SWORD_PLUS1 = ITEMS.register("netherite_sword_plus1", () ->
+            new GlowingSwordItem(Tiers.NETHERITE,
+                    5,
+                    -1.7f,
+                    new Item.Properties().fireResistant()));
 
 
     //アイテムイベントバスを作成

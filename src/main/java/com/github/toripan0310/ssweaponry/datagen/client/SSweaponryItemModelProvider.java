@@ -22,5 +22,25 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/wooden_sword_plus1"));
+        //石の剣のモデル
+        withExistingParent(SSweaponryItems.STONE_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/stone_sword_plus1"));
+        //鉄の剣のモデル
+        withExistingParent(SSweaponryItems.IRON_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/iron_sword_plus1"));
+        //金の剣のモデル
+        withExistingParent(SSweaponryItems.GOLDEN_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/golden_sword_plus1"));
+        //ダイヤの剣のモデル
+        withExistingParent(SSweaponryItems.DIAMOND_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/diamond_sword_plus1"));
+        //ネザライトの剣のモデル
+        withExistingParent(SSweaponryItems.NETHERITE_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/netherite_sword_plus1"));
     }
 }

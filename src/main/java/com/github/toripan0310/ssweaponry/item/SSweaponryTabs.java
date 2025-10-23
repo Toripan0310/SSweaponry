@@ -25,6 +25,11 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
                         pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.STONE_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.IRON_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.GOLDEN_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.DIAMOND_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS1.get());
                     }))
                     .build());
 
