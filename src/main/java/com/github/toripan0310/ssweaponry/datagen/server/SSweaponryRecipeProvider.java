@@ -60,7 +60,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('A', SSweaponryItems.SSWEAPON_STAR.get())
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter);
-
+//鍛治型強化+1
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.WOODEN_SWORD),
+                Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                RecipeCategory.COMBAT,
+                SSweaponryItems.WOODEN_SWORD_PLUS1.get()
+        )
+                .unlocks("has_ssweapon_star", has(Items.WOODEN_SWORD))
+                .save(pWriter, "ssweaponry:wooden_sword_plus1");
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,

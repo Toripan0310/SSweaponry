@@ -17,5 +17,10 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         basicItem(SSweaponryItems.SSSMITHING_TEMPLATE.get());
         basicItem(SSweaponryItems.STEEL_INGOT.get());
         basicItem(SSweaponryItems.WITHER_LOD.get());
+
+        //木の剣のモデル
+        withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/wooden_sword_plus1"));
     }
 }

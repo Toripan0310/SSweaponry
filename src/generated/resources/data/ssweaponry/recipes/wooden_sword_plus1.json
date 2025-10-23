@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ssweaponry:ssweapon_star"
+  },
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "result": {
+    "item": "ssweaponry:wooden_sword_plus1"
+  },
+  "template": {
+    "item": "ssweaponry:sssmithing_template"
+  }
+}

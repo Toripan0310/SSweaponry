@@ -19,6 +19,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.SSSMITHING_TEMPLATE, "SS鍛治型");
         addItem(SSweaponryItems.WITHER_LOD, "ウィザーロッド");
         addItem(SSweaponryItems.STEEL_INGOT, "鋼鉄インゴット");
+        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
 
         add("creativetabs.ssweaponry_tab", "SS武器");
         addBlock(SSweaponryBlocks.STEEL_BLOCK, "鋼鉄ブロック");
