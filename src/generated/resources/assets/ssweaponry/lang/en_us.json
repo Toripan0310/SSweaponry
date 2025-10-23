@@ -2,13 +2,20 @@
   "block.ssweaponry.steel_block": "Steel Block",
   "creativetabs.ssweaponry_tab": "SSweaponry",
   "item.ssweaponry.diamond_sword_plus1": "Diamond Sword+1",
+  "item.ssweaponry.diamond_sword_plus2": "Diamond Sword+2",
   "item.ssweaponry.golden_sword_plus1": "Golden Sword+1",
+  "item.ssweaponry.golden_sword_plus2": "Golden Sword+2",
   "item.ssweaponry.iron_sword_plus1": "Iron Sword+1",
+  "item.ssweaponry.iron_sword_plus2": "Iron Sword+2",
   "item.ssweaponry.netherite_sword_plus1": "Netherite Sword+1",
+  "item.ssweaponry.netherite_sword_plus2": "Netherite Sword+2",
   "item.ssweaponry.sssmithing_template": "SSSmithing Template",
   "item.ssweaponry.ssweapon_star": "SSweapon Star",
+  "item.ssweaponry.ssweapon_star_tier2": "SSweapon Star Tier2",
   "item.ssweaponry.steel_ingot": "Steel Ingot",
   "item.ssweaponry.stone_sword_plus1": "Stone Sword+1",
+  "item.ssweaponry.stone_sword_plus2": "Stone Sword+2",
   "item.ssweaponry.wither_lod": "Wither Lod",
-  "item.ssweaponry.wooden_sword_plus1": "Wooden Sword+1"
+  "item.ssweaponry.wooden_sword_plus1": "Wooden Sword+1",
+  "item.ssweaponry.wooden_sword_plus2": "Wooden Sword+2"
 }

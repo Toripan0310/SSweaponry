@@ -59,6 +59,15 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('D', Items.DIAMOND)
                 .define('A', SSweaponryItems.SSWEAPON_STAR.get())
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
+                .save(pWriter, "ssweaponry:sssmithing_template_add");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSweaponryItems.SSSMITHING_TEMPLATE.get())
+                .pattern("DDD")
+                .pattern("DAD")
+                .pattern("DDD")
+                .define('D', Items.DIAMOND)
+                .define('A', SSweaponryItems.SSSMITHING_TEMPLATE.get())
+                .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter);
 //鍛治型強化+1 シリーズ
         SmithingTransformRecipeBuilder.smithing(
@@ -120,6 +129,77 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_netherite_sword", has(Items.NETHERITE_SWORD))
                 .save(pWriter, "ssweaponry:netherite_sword_plus1");
+
+//鍛治型強化+2シリーズ
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        Ingredient.of(Items.NETHER_STAR),
+                        RecipeCategory.MISC,
+                        SSweaponryItems.SSWEAPON_STAR_TIER2.get()
+                )
+                .unlocks("has_ssweapon_star", has(SSweaponryItems.SSWEAPON_STAR.get()))
+                .save(pWriter, "ssweaponry:ssweapon_star_tier2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.WOODEN_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.WOODEN_SWORD_PLUS2.get()
+                )
+                .unlocks("has_wooden_sword_plus1", has(SSweaponryItems.WOODEN_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:wooden_sword_plus2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STONE_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STONE_SWORD_PLUS2.get()
+                )
+                .unlocks("has_stone_sword_plus1", has(SSweaponryItems.STONE_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:stone_sword_plus2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.IRON_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.IRON_SWORD_PLUS2.get()
+                )
+                .unlocks("has_iron_sword_plus1", has(SSweaponryItems.IRON_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:iron_sword_plus2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.GOLDEN_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.GOLDEN_SWORD_PLUS2.get()
+                )
+                .unlocks("has_golden_sword_plus1", has(SSweaponryItems.GOLDEN_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:golden_sword_plus2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.DIAMOND_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.DIAMOND_SWORD_PLUS2.get()
+                )
+                .unlocks("has_diamond_sword_plus1", has(SSweaponryItems.DIAMOND_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:diamond_sword_plus2");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.NETHERITE_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.NETHERITE_SWORD_PLUS2.get()
+                )
+                .unlocks("has_netherite_sword_plus1", has(SSweaponryItems.NETHERITE_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:netherite_sword_plus2");
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,

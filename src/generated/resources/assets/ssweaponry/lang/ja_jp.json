@@ -2,13 +2,20 @@
   "block.ssweaponry.steel_block": "鋼鉄ブロック",
   "creativetabs.ssweaponry_tab": "SS武器",
   "item.ssweaponry.diamond_sword_plus1": "ダイヤの剣+1",
+  "item.ssweaponry.diamond_sword_plus2": "ダイヤの剣+2",
   "item.ssweaponry.golden_sword_plus1": "金の剣+1",
+  "item.ssweaponry.golden_sword_plus2": "金の剣+2",
   "item.ssweaponry.iron_sword_plus1": "鉄の剣+1",
+  "item.ssweaponry.iron_sword_plus2": "鉄の剣+2",
   "item.ssweaponry.netherite_sword_plus1": "ネザライトの剣+1",
+  "item.ssweaponry.netherite_sword_plus2": "ネザライトの剣+2",
   "item.ssweaponry.sssmithing_template": "SS鍛治型",
   "item.ssweaponry.ssweapon_star": "SS武器スター",
+  "item.ssweaponry.ssweapon_star_tier2": "SS武器スター ティア2",
   "item.ssweaponry.steel_ingot": "鋼鉄インゴット",
   "item.ssweaponry.stone_sword_plus1": "石の剣+1",
+  "item.ssweaponry.stone_sword_plus2": "石の剣+2",
   "item.ssweaponry.wither_lod": "ウィザーロッド",
-  "item.ssweaponry.wooden_sword_plus1": "木の剣+1"
+  "item.ssweaponry.wooden_sword_plus1": "木の剣+1",
+  "item.ssweaponry.wooden_sword_plus2": "木の剣+2"
 }
