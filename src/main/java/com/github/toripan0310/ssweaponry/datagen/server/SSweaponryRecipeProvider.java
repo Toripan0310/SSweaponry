@@ -271,6 +271,77 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_netherite_sword_plus2", has(SSweaponryItems.NETHERITE_SWORD_PLUS2.get()))
                 .save(pWriter, "ssweaponry:netherite_sword_plus3");
+
+//鍛治型強化+4シリーズ
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        RecipeCategory.MISC,
+                        SSweaponryItems.SSWEAPON_STAR_TIER4.get()
+                )
+                .unlocks("has_ssweapon_star_tier3", has(SSweaponryItems.SSWEAPON_STAR_TIER3.get()))
+                .save(pWriter, "ssweaponry:ssweapon_star_tier4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.WOODEN_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.WOODEN_SWORD_PLUS4.get()
+                )
+                .unlocks("has_wooden_sword_plus3", has(SSweaponryItems.WOODEN_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:wooden_sword_plus4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STONE_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STONE_SWORD_PLUS4.get()
+                )
+                .unlocks("has_stone_sword_plus3", has(SSweaponryItems.STONE_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:stone_sword_plus4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.IRON_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.IRON_SWORD_PLUS4.get()
+                )
+                .unlocks("has_iron_sword_plus3", has(SSweaponryItems.IRON_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:iron_sword_plus4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.GOLDEN_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.GOLDEN_SWORD_PLUS4.get()
+                )
+                .unlocks("has_golden_sword_plus3", has(SSweaponryItems.GOLDEN_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:golden_sword_plus4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.DIAMOND_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.DIAMOND_SWORD_PLUS4.get()
+                )
+                .unlocks("has_diamond_sword_plus3", has(SSweaponryItems.DIAMOND_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:diamond_sword_plus4");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.NETHERITE_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.NETHERITE_SWORD_PLUS4.get()
+                )
+                .unlocks("has_netherite_sword_plus3", has(SSweaponryItems.NETHERITE_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:netherite_sword_plus4");
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,

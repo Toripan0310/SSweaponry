@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_sword_plus3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ssweaponry:stone_sword_plus3"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ssweaponry:stone_sword_plus4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_sword_plus3",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ssweaponry:stone_sword_plus4"
+    ]
+  },
+  "sends_telemetry_event": false
+}

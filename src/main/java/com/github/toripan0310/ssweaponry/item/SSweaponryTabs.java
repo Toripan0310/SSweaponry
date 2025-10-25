@@ -22,28 +22,41 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.SSWEAPON_STAR.get());
                         pOutput.accept(SSweaponryItems.SSWEAPON_STAR_TIER2.get());
                         pOutput.accept(SSweaponryItems.SSWEAPON_STAR_TIER3.get());
+                        pOutput.accept(SSweaponryItems.SSWEAPON_STAR_TIER4.get());
                         pOutput.accept(SSweaponryItems.SSSMITHING_TEMPLATE.get());
                         pOutput.accept(SSweaponryItems.WITHER_LOD.get());
                         pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
                         pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
+                        //木
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS4.get());
+                        //石
                         pOutput.accept(SSweaponryItems.STONE_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.STONE_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.STONE_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.STONE_SWORD_PLUS4.get());
+                        //鉄
                         pOutput.accept(SSweaponryItems.IRON_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.IRON_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.IRON_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.IRON_SWORD_PLUS4.get());
+                        //金
                         pOutput.accept(SSweaponryItems.GOLDEN_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.GOLDEN_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.GOLDEN_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.GOLDEN_SWORD_PLUS4.get());
+                        //ダイヤ
                         pOutput.accept(SSweaponryItems.DIAMOND_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.DIAMOND_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.DIAMOND_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.DIAMOND_SWORD_PLUS4.get());
+                        //ネザライト
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS4.get());
                     }))
                     .build());
 
