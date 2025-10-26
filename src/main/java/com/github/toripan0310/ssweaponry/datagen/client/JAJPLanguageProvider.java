@@ -24,6 +24,8 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.WITHER_LOD, "ウィザーロッド");
         addItem(SSweaponryItems.STEEL_INGOT, "鋼鉄インゴット");
         addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
+        addItem(SSweaponryItems.BONED_CHICKEN, "骨付き鶏肉");
+        addItem(SSweaponryItems.MYTHIC_BONED_CHICKEN, "神話級骨付き鶏肉");
 //plus1
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "石の剣+1");
         addItem(SSweaponryItems.IRON_SWORD_PLUS1, "鉄の剣+1");

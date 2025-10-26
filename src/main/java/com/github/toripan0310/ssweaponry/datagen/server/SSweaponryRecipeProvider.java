@@ -69,6 +69,24 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('A', SSweaponryItems.SSSMITHING_TEMPLATE.get())
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter);
+//骨付きにく
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.BONED_CHICKEN.get())
+                .pattern("C")
+                .pattern("B")
+                .define('C', Items.BONE)
+                .define('B', Items.COOKED_CHICKEN)
+                .unlockedBy("has_cooked_chicken", has(Items.COOKED_CHICKEN))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.MYTHIC_BONED_CHICKEN.get())
+                .pattern("SSS")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('C', SSweaponryItems.BONED_CHICKEN.get())
+                .define('S', SSweaponryItems.SSWEAPON_STAR_TIER5.get())
+                .unlockedBy("has_boned_chicken", has(SSweaponryItems.BONED_CHICKEN.get()))
+                .save(pWriter);
+
 //鍛治型強化+1 シリーズ
         SmithingTransformRecipeBuilder.smithing(
                 Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
@@ -276,7 +294,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
         SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
                         Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER3.get()),
-                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
                         RecipeCategory.MISC,
                         SSweaponryItems.SSWEAPON_STAR_TIER4.get()
                 )
@@ -347,7 +365,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
         SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
                         Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
-                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER3.get()),
                         RecipeCategory.MISC,
                         SSweaponryItems.SSWEAPON_STAR_TIER5.get()
                 )

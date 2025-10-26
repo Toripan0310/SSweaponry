@@ -1,6 +1,9 @@
 package com.github.toripan0310.ssweaponry.item;
 
 import com.github.toripan0310.ssweaponry.SSweaponryMod;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tiers;
@@ -28,6 +31,19 @@ public class SSweaponryItems {
     public static final RegistryObject<Item> SSSMITHING_TEMPLATE = ITEMS.register("sssmithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WITHER_LOD = ITEMS.register("wither_lod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BONED_CHICKEN = ITEMS.register("boned_chicken", () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(7)
+                    .saturationMod(0.8f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 150, 0),1.0f)
+                    .build())));
+    public static final RegistryObject<Item> MYTHIC_BONED_CHICKEN = ITEMS.register("mythic_boned_chicken", () -> new Item(new Item.Properties()
+            .rarity(SSweaponryRarities.MYTHIC)
+            .food(new FoodProperties.Builder()
+                    .nutrition(10)
+                    .saturationMod(1f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 3600, 0),2.0f)
+                    .build())));
 
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS1 = ITEMS.register("wooden_sword_plus1", () ->
             new GlowingSwordItem(Tiers.WOOD,

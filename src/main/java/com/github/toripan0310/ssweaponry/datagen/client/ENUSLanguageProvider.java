@@ -23,6 +23,8 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.SSSMITHING_TEMPLATE, "SSSmithing Template");
         addItem(SSweaponryItems.WITHER_LOD, "Wither Lod");
         addItem(SSweaponryItems.STEEL_INGOT, "Steel Ingot");
+        addItem(SSweaponryItems.BONED_CHICKEN, "Boned Chicken");
+        addItem(SSweaponryItems.MYTHIC_BONED_CHICKEN, "Mythic Boned Chicken");
 //plus1
         addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "Wooden Sword+1");
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "Stone Sword+1");
