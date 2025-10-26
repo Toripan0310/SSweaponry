@@ -42,10 +42,16 @@ public class SSweaponryGlobalLootModifierProvider extends GlobalLootModifierProv
                 LootItemRandomChanceCondition.randomChance(0.7f).build()
         }, SSweaponryItems.SSSMITHING_TEMPLATE.get()));
 
-        //ゾンビのドロップ
+        //ウィザーのドロップ
         add("ssweapon_star_from_wither", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
                 LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, SSweaponryItems.SSWEAPON_STAR.get()));
+
+        //鶏のドロップ
+        add("ssweapon_toripan_from_chicken", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/chicken")).build(),
+                LootItemRandomChanceCondition.randomChance(0.08f).build()
+        }, SSweaponryItems.TORIPAN.get()));
     }
 }

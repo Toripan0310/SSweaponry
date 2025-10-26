@@ -29,6 +29,8 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.MYTHIC_BONED_PORKCHOP, "Mythic Boned Porkchop");
         addItem(SSweaponryItems.BONED_BEEF, "Boned Beef");
         addItem(SSweaponryItems.MYTHIC_BONED_BEEF, "Mythic Boned Beef");
+        addItem(SSweaponryItems.TORIPAN, "Toripan");
+        addItem(SSweaponryItems.INFINITE_TORIPAN, "Infinite Toripan");
 //plus1
         addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "Wooden Sword+1");
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "Stone Sword+1");

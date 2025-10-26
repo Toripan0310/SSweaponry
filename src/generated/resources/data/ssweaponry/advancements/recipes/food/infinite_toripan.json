@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "ssweaponry:boned_chicken"
+        "recipe": "ssweaponry:infinite_toripan"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "ssweaponry:boned_chicken"
+      "ssweaponry:infinite_toripan"
     ]
   },
   "sends_telemetry_event": false

@@ -73,6 +73,17 @@ public class SSweaponryItems {
                     .saturationMod(1f)
                     .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 3600, 0),2.0f)
                     .build())));
+    //toripan
+    public static final RegistryObject<Item> TORIPAN = ITEMS.register("toripan", () -> new Item(new Item.Properties()
+            .rarity(Rarity.EPIC)
+            .food(new FoodProperties.Builder()
+                    .nutrition(10)
+                    .saturationMod(0.8f)
+                    .build())));
+    public static final RegistryObject<Item> INFINITE_TORIPAN =
+            ITEMS.register("infinite_toripan",
+                    () -> new InfiniteToripanItem(new Item.Properties()
+                            .fireResistant()));
 
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS1 = ITEMS.register("wooden_sword_plus1", () ->
             new GlowingSwordItem(Tiers.WOOD,

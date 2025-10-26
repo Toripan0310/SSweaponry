@@ -28,6 +28,8 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.WITHER_LOD.get());
                         pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
                         pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(SSweaponryItems.TORIPAN.get());
+                        pOutput.accept(SSweaponryItems.INFINITE_TORIPAN.get());
                         pOutput.accept(SSweaponryItems.BONED_CHICKEN.get());
                         pOutput.accept(SSweaponryItems.MYTHIC_BONED_CHICKEN.get());
                         pOutput.accept(SSweaponryItems.BONED_PORKCHOP.get());

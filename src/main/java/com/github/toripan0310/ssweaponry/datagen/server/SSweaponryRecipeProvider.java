@@ -69,6 +69,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('A', SSweaponryItems.SSSMITHING_TEMPLATE.get())
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter);
+//Infinite Toripan
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.INFINITE_TORIPAN.get())
+                .pattern(" B ")
+                .pattern("LTL")
+                .pattern(" B ")
+                .define('B', Items.BONE)
+                .define('L', Items.BLAZE_ROD)
+                .define('T', SSweaponryItems.TORIPAN.get())
+                .unlockedBy("has_toripan", has(SSweaponryItems.TORIPAN.get()))
+                .save(pWriter);
 //骨付きにく
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.BONED_CHICKEN.get())
                 .pattern("C")
