@@ -28,6 +28,10 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         basicItem(SSweaponryItems.INFINITE_TORIPAN.get());
         basicItem(SSweaponryItems.MYTHIC_BONED_BEEF.get());
         basicItem(SSweaponryItems.STEEL_INGOT.get());
+        basicItem(SSweaponryItems.STEEL_PICKAXE.get());
+        basicItem(SSweaponryItems.STEEL_AXE.get());
+        basicItem(SSweaponryItems.STEEL_SHOVEL.get());
+        basicItem(SSweaponryItems.STEEL_SWORD.get());
         basicItem(SSweaponryItems.WITHER_LOD.get());
 
         //木の剣のモデル
@@ -126,5 +130,21 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.NETHERITE_SWORD_PLUS5.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/netherite_sword_plus5"));
+        //鋼鉄の剣のモデル
+        withExistingParent(SSweaponryItems.STEEL_SWORD_PLUS1.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/steel_sword_plus1"));
+        withExistingParent(SSweaponryItems.STEEL_SWORD_PLUS2.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/steel_sword_plus2"));
+        withExistingParent(SSweaponryItems.STEEL_SWORD_PLUS3.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/steel_sword_plus3"));
+        withExistingParent(SSweaponryItems.STEEL_SWORD_PLUS4.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/steel_sword_plus4"));
+        withExistingParent(SSweaponryItems.STEEL_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/steel_sword_plus5"));
     }
 }

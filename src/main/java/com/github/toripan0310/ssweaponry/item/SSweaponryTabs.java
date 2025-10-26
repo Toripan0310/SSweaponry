@@ -27,6 +27,10 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.SSSMITHING_TEMPLATE.get());
                         pOutput.accept(SSweaponryItems.WITHER_LOD.get());
                         pOutput.accept(SSweaponryItems.STEEL_INGOT.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD.get());
+                        pOutput.accept(SSweaponryItems.STEEL_AXE.get());
+                        pOutput.accept(SSweaponryItems.STEEL_PICKAXE.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SHOVEL.get());
                         pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
                         pOutput.accept(SSweaponryItems.TORIPAN.get());
                         pOutput.accept(SSweaponryItems.INFINITE_TORIPAN.get());
@@ -36,6 +40,12 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.MYTHIC_BONED_PORKCHOP.get());
                         pOutput.accept(SSweaponryItems.BONED_BEEF.get());
                         pOutput.accept(SSweaponryItems.MYTHIC_BONED_BEEF.get());
+                        //鋼鉄
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS1.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS2.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS3.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS4.get());
+                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS5.get());
                         //木
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS2.get());

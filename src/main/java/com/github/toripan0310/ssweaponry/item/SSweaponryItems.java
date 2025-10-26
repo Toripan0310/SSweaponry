@@ -4,9 +4,7 @@ import com.github.toripan0310.ssweaponry.SSweaponryMod;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -80,10 +78,20 @@ public class SSweaponryItems {
                     .nutrition(10)
                     .saturationMod(0.8f)
                     .build())));
+    public static final Tier STEEL_TIER = new SteelToolMaterial();
     public static final RegistryObject<Item> INFINITE_TORIPAN =
             ITEMS.register("infinite_toripan",
                     () -> new InfiniteToripanItem(new Item.Properties()
                             .fireResistant()));
+
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () ->
+            new SwordItem(STEEL_TIER,  4, -2.4f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () ->
+            new AxeItem(STEEL_TIER,  6, -3.0f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () ->
+            new PickaxeItem(STEEL_TIER,  2, -2.8f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel",
+            () -> new ShovelItem(STEEL_TIER, 2, -3.0f, new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS1 = ITEMS.register("wooden_sword_plus1", () ->
             new GlowingSwordItem(Tiers.WOOD,
@@ -114,6 +122,11 @@ public class SSweaponryItems {
             new GlowingSwordItem(Tiers.NETHERITE,
                     5,
                     -1.7f,
+                    new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> STEEL_SWORD_PLUS1 = ITEMS.register("steel_sword_plus1", () ->
+            new GlowingSwordItem(STEEL_TIER,
+                    5,
+                    -2.3f,
                     new Item.Properties().fireResistant()));
     //Plus2
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS2 = ITEMS.register("wooden_sword_plus2", () ->
@@ -146,6 +159,11 @@ public class SSweaponryItems {
                     6,
                     -1.6f,
                     new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> STEEL_SWORD_PLUS2 = ITEMS.register("steel_sword_plus2", () ->
+            new GlowingSwordItem(STEEL_TIER,
+                    6,
+                    -2.2f,
+                    new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON)));
     //Plus3
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS3 = ITEMS.register("wooden_sword_plus3", () ->
             new GlowingSwordItem(Tiers.WOOD,
@@ -176,6 +194,11 @@ public class SSweaponryItems {
             new GlowingSwordItem(Tiers.NETHERITE,
                     7,
                     -1.5f,
+                    new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> STEEL_SWORD_PLUS3 = ITEMS.register("steel_sword_plus3", () ->
+            new GlowingSwordItem(STEEL_TIER,
+                    7,
+                    -2.1f,
                     new Item.Properties().fireResistant().rarity(Rarity.RARE)));
 //plus4
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS4 = ITEMS.register("wooden_sword_plus4", () ->
@@ -208,6 +231,11 @@ public class SSweaponryItems {
                     8,
                     -1.4f,
                     new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> STEEL_SWORD_PLUS4 = ITEMS.register("steel_sword_plus4", () ->
+            new GlowingSwordItem(STEEL_TIER,
+                    8,
+                    -2f,
+                    new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
 //plus5
     public static final RegistryObject<Item> WOODEN_SWORD_PLUS5 = ITEMS.register("wooden_sword_plus5", () ->
             new GlowingSwordItem(Tiers.WOOD,
@@ -238,6 +266,11 @@ public class SSweaponryItems {
             new GlowingSwordItem(Tiers.NETHERITE,
                     9,
                     -1.3f,
+                    new Item.Properties().fireResistant().rarity(SSweaponryRarities.LEGENDARY)));
+    public static final RegistryObject<Item> STEEL_SWORD_PLUS5 = ITEMS.register("steel_sword_plus5", () ->
+            new GlowingSwordItem(STEEL_TIER,
+                    9,
+                    -1.9f,
                     new Item.Properties().fireResistant().rarity(SSweaponryRarities.LEGENDARY)));
 
 

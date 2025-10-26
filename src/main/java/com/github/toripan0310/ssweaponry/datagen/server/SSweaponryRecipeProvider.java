@@ -126,6 +126,39 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('S', SSweaponryItems.SSWEAPON_STAR_TIER5.get())
                 .unlockedBy("has_boned_beef", has(SSweaponryItems.BONED_BEEF.get()))
                 .save(pWriter);
+        //SteelTool
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, SSweaponryItems.STEEL_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" K ")
+                .define('K', Items.STICK)
+                .define('S', SSweaponryItems.STEEL_INGOT.get())
+                .unlockedBy("has_steel_ingot", has(SSweaponryItems.STEEL_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, SSweaponryItems.STEEL_AXE.get())
+                .pattern(" SS")
+                .pattern(" KS")
+                .pattern(" K ")
+                .define('K', Items.STICK)
+                .define('S', SSweaponryItems.STEEL_INGOT.get())
+                .unlockedBy("has_steel_ingot", has(SSweaponryItems.STEEL_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, SSweaponryItems.STEEL_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" K ")
+                .pattern(" K ")
+                .define('K', Items.STICK)
+                .define('S', SSweaponryItems.STEEL_INGOT.get())
+                .unlockedBy("has_steel_ingot", has(SSweaponryItems.STEEL_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, SSweaponryItems.STEEL_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" K ")
+                .pattern(" K ")
+                .define('K', Items.STICK)
+                .define('S', SSweaponryItems.STEEL_INGOT.get())
+                .unlockedBy("has_steel_ingot", has(SSweaponryItems.STEEL_INGOT.get()))
+                .save(pWriter);
 
 //鍛治型強化+1 シリーズ
         SmithingTransformRecipeBuilder.smithing(
@@ -187,6 +220,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_netherite_sword", has(Items.NETHERITE_SWORD))
                 .save(pWriter, "ssweaponry:netherite_sword_plus1");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STEEL_SWORD.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STEEL_SWORD_PLUS1.get()
+                )
+                .unlocks("has_steel_sword", has(SSweaponryItems.STEEL_SWORD.get()))
+                .save(pWriter, "ssweaponry:steel_sword_plus1");
 
 //鍛治型強化+2シリーズ
         SmithingTransformRecipeBuilder.smithing(
@@ -259,6 +302,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .unlocks("has_netherite_sword_plus1", has(SSweaponryItems.NETHERITE_SWORD_PLUS1.get()))
                 .save(pWriter, "ssweaponry:netherite_sword_plus2");
 
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STEEL_SWORD_PLUS1.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER2.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STEEL_SWORD_PLUS2.get()
+                )
+                .unlocks("has_steel_sword_plus1", has(SSweaponryItems.STEEL_SWORD_PLUS1.get()))
+                .save(pWriter, "ssweaponry:steel_sword_plus2");
+
 //鍛治型強化+3シリーズ
         SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
@@ -329,6 +382,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_netherite_sword_plus2", has(SSweaponryItems.NETHERITE_SWORD_PLUS2.get()))
                 .save(pWriter, "ssweaponry:netherite_sword_plus3");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STEEL_SWORD_PLUS2.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER3.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STEEL_SWORD_PLUS3.get()
+                )
+                .unlocks("has_steel_sword_plus2", has(SSweaponryItems.STEEL_SWORD_PLUS2.get()))
+                .save(pWriter, "ssweaponry:steel_sword_plus3");
 
 //鍛治型強化+4シリーズ
         SmithingTransformRecipeBuilder.smithing(
@@ -401,6 +464,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .unlocks("has_netherite_sword_plus3", has(SSweaponryItems.NETHERITE_SWORD_PLUS3.get()))
                 .save(pWriter, "ssweaponry:netherite_sword_plus4");
 
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STEEL_SWORD_PLUS3.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER4.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STEEL_SWORD_PLUS4.get()
+                )
+                .unlocks("has_steel_sword_plus3", has(SSweaponryItems.STEEL_SWORD_PLUS3.get()))
+                .save(pWriter, "ssweaponry:steel_sword_plus4");
+
 //鍛治型強化+5シリーズ
         SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
@@ -471,6 +544,16 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_netherite_sword_plus4", has(SSweaponryItems.NETHERITE_SWORD_PLUS4.get()))
                 .save(pWriter, "ssweaponry:netherite_sword_plus5");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(SSweaponryItems.STEEL_SWORD_PLUS4.get()),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR_TIER5.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.STEEL_SWORD_PLUS5.get()
+                )
+                .unlocks("has_steel_sword_plus4", has(SSweaponryItems.STEEL_SWORD_PLUS4.get()))
+                .save(pWriter, "ssweaponry:steel_sword_plus5");
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,
