@@ -19,6 +19,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.SSWEAPON_STAR_TIER2, "SS武器スター ティア2");
         addItem(SSweaponryItems.SSWEAPON_STAR_TIER3, "SS武器スター ティア3");
         addItem(SSweaponryItems.SSWEAPON_STAR_TIER4, "SS武器スター ティア4");
+        addItem(SSweaponryItems.SSWEAPON_STAR_TIER5, "SS武器スター ティア5");
         addItem(SSweaponryItems.SSSMITHING_TEMPLATE, "SS鍛治型");
         addItem(SSweaponryItems.WITHER_LOD, "ウィザーロッド");
         addItem(SSweaponryItems.STEEL_INGOT, "鋼鉄インゴット");
@@ -50,6 +51,13 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.GOLDEN_SWORD_PLUS4, "金の剣+4");
         addItem(SSweaponryItems.DIAMOND_SWORD_PLUS4, "ダイヤの剣+4");
         addItem(SSweaponryItems.NETHERITE_SWORD_PLUS4, "ネザライトの剣+4");
+//plus5
+        addItem(SSweaponryItems.WOODEN_SWORD_PLUS5, "木の剣+5");
+        addItem(SSweaponryItems.STONE_SWORD_PLUS5, "石の剣+5");
+        addItem(SSweaponryItems.IRON_SWORD_PLUS5, "鉄の剣+5");
+        addItem(SSweaponryItems.GOLDEN_SWORD_PLUS5, "金の剣+5");
+        addItem(SSweaponryItems.DIAMOND_SWORD_PLUS5, "ダイヤの剣+5");
+        addItem(SSweaponryItems.NETHERITE_SWORD_PLUS5, "ネザライトの剣+5");
 
 
         add("creativetabs.ssweaponry_tab", "SS武器");

@@ -40,6 +40,5 @@ public class SSweaponryDataGenerators {
         generator.addProvider(event.includeServer(), SSweaponryLootTables.create(packOutput));
         generator.addProvider(event.includeServer(), new SSweaponryBlockTagsProvider(packOutput, lookUpProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new SSweaponryGlobalLootModifierProvider(packOutput));
-
     }
 }

@@ -17,6 +17,7 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         basicItem(SSweaponryItems.SSWEAPON_STAR_TIER2.get());
         basicItem(SSweaponryItems.SSWEAPON_STAR_TIER3.get());
         basicItem(SSweaponryItems.SSWEAPON_STAR_TIER4.get());
+        basicItem(SSweaponryItems.SSWEAPON_STAR_TIER5.get());
         basicItem(SSweaponryItems.SSSMITHING_TEMPLATE.get());
         basicItem(SSweaponryItems.STEEL_INGOT.get());
         basicItem(SSweaponryItems.WITHER_LOD.get());
@@ -34,6 +35,9 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/wooden_sword_plus4"));
+        withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/wooden_sword_plus5"));
         //石の剣のモデル
         withExistingParent(SSweaponryItems.STONE_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
@@ -47,6 +51,9 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.STONE_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/stone_sword_plus4"));
+        withExistingParent(SSweaponryItems.STONE_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/stone_sword_plus5"));
         //鉄の剣のモデル
         withExistingParent(SSweaponryItems.IRON_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
@@ -60,6 +67,9 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.IRON_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/iron_sword_plus4"));
+        withExistingParent(SSweaponryItems.IRON_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/iron_sword_plus5"));
         //金の剣のモデル
         withExistingParent(SSweaponryItems.GOLDEN_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
@@ -73,6 +83,9 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.GOLDEN_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/golden_sword_plus4"));
+        withExistingParent(SSweaponryItems.GOLDEN_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/golden_sword_plus5"));
         //ダイヤの剣のモデル
         withExistingParent(SSweaponryItems.DIAMOND_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
@@ -86,6 +99,9 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.DIAMOND_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/diamond_sword_plus4"));
+        withExistingParent(SSweaponryItems.DIAMOND_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/diamond_sword_plus5"));
         //ネザライトの剣のモデル
         withExistingParent(SSweaponryItems.NETHERITE_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
@@ -99,5 +115,8 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         withExistingParent(SSweaponryItems.NETHERITE_SWORD_PLUS4.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/netherite_sword_plus4"));
+        withExistingParent(SSweaponryItems.NETHERITE_SWORD_PLUS5.getId().getPath(),
+                mcLoc("item/handheld"))
+                .texture("layer0", modLoc("item/netherite_sword_plus5"));
     }
 }
