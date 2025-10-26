@@ -26,6 +26,10 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
         addItem(SSweaponryItems.BONED_CHICKEN, "骨付き鶏肉");
         addItem(SSweaponryItems.MYTHIC_BONED_CHICKEN, "神話級骨付き鶏肉");
+        addItem(SSweaponryItems.BONED_PORKCHOP, "骨付き豚肉");
+        addItem(SSweaponryItems.MYTHIC_BONED_PORKCHOP, "神話級骨付き豚肉");
+        addItem(SSweaponryItems.BONED_BEEF, "骨付き牛肉");
+        addItem(SSweaponryItems.MYTHIC_BONED_BEEF, "神話級骨付き牛肉");
 //plus1
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "石の剣+1");
         addItem(SSweaponryItems.IRON_SWORD_PLUS1, "鉄の剣+1");

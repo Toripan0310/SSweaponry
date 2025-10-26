@@ -31,6 +31,7 @@ public class SSweaponryItems {
     public static final RegistryObject<Item> SSSMITHING_TEMPLATE = ITEMS.register("sssmithing_template", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WITHER_LOD = ITEMS.register("wither_lod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
+    //骨付き焼き鳥肉
     public static final RegistryObject<Item> BONED_CHICKEN = ITEMS.register("boned_chicken", () -> new Item(new Item.Properties()
             .food(new FoodProperties.Builder()
                     .nutrition(7)
@@ -38,6 +39,34 @@ public class SSweaponryItems {
                     .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 150, 0),1.0f)
                     .build())));
     public static final RegistryObject<Item> MYTHIC_BONED_CHICKEN = ITEMS.register("mythic_boned_chicken", () -> new Item(new Item.Properties()
+            .rarity(SSweaponryRarities.MYTHIC)
+            .food(new FoodProperties.Builder()
+                    .nutrition(10)
+                    .saturationMod(1f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 3600, 0),2.0f)
+                    .build())));
+    //骨付き豚肉
+    public static final RegistryObject<Item> BONED_PORKCHOP = ITEMS.register("boned_porkchop", () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(7)
+                    .saturationMod(0.8f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 150, 0),1.0f)
+                    .build())));
+    public static final RegistryObject<Item> MYTHIC_BONED_PORKCHOP = ITEMS.register("mythic_boned_porkchop", () -> new Item(new Item.Properties()
+            .rarity(SSweaponryRarities.MYTHIC)
+            .food(new FoodProperties.Builder()
+                    .nutrition(10)
+                    .saturationMod(1f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 3600, 0),2.0f)
+                    .build())));
+    //骨付き牛肉
+    public static final RegistryObject<Item> BONED_BEEF = ITEMS.register("boned_beef", () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(7)
+                    .saturationMod(0.8f)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 150, 0),1.0f)
+                    .build())));
+    public static final RegistryObject<Item> MYTHIC_BONED_BEEF = ITEMS.register("mythic_boned_beef", () -> new Item(new Item.Properties()
             .rarity(SSweaponryRarities.MYTHIC)
             .food(new FoodProperties.Builder()
                     .nutrition(10)

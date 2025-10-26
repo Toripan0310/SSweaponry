@@ -21,6 +21,10 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         basicItem(SSweaponryItems.SSSMITHING_TEMPLATE.get());
         basicItem(SSweaponryItems.BONED_CHICKEN.get());
         basicItem(SSweaponryItems.MYTHIC_BONED_CHICKEN.get());
+        basicItem(SSweaponryItems.BONED_PORKCHOP.get());
+        basicItem(SSweaponryItems.MYTHIC_BONED_PORKCHOP.get());
+        basicItem(SSweaponryItems.BONED_BEEF.get());
+        basicItem(SSweaponryItems.MYTHIC_BONED_BEEF.get());
         basicItem(SSweaponryItems.STEEL_INGOT.get());
         basicItem(SSweaponryItems.WITHER_LOD.get());
 

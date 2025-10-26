@@ -77,6 +77,20 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('B', Items.COOKED_CHICKEN)
                 .unlockedBy("has_cooked_chicken", has(Items.COOKED_CHICKEN))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.BONED_PORKCHOP.get())
+                .pattern("P")
+                .pattern("B")
+                .define('B', Items.BONE)
+                .define('P', Items.COOKED_PORKCHOP)
+                .unlockedBy("has_cooked_porkchop", has(Items.COOKED_PORKCHOP))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.BONED_BEEF.get())
+                .pattern("F")
+                .pattern("B")
+                .define('B', Items.BONE)
+                .define('F', Items.COOKED_BEEF)
+                .unlockedBy("has_cooked_beef", has(Items.COOKED_BEEF))
+                .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.MYTHIC_BONED_CHICKEN.get())
                 .pattern("SSS")
@@ -85,6 +99,22 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .define('C', SSweaponryItems.BONED_CHICKEN.get())
                 .define('S', SSweaponryItems.SSWEAPON_STAR_TIER5.get())
                 .unlockedBy("has_boned_chicken", has(SSweaponryItems.BONED_CHICKEN.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.MYTHIC_BONED_PORKCHOP.get())
+                .pattern("SSS")
+                .pattern("SPS")
+                .pattern("SSS")
+                .define('P', SSweaponryItems.BONED_PORKCHOP.get())
+                .define('S', SSweaponryItems.SSWEAPON_STAR_TIER5.get())
+                .unlockedBy("has_boned_porkchop", has(SSweaponryItems.BONED_PORKCHOP.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SSweaponryItems.MYTHIC_BONED_BEEF.get())
+                .pattern("SSS")
+                .pattern("SBS")
+                .pattern("SSS")
+                .define('B', SSweaponryItems.BONED_BEEF.get())
+                .define('S', SSweaponryItems.SSWEAPON_STAR_TIER5.get())
+                .unlockedBy("has_boned_beef", has(SSweaponryItems.BONED_BEEF.get()))
                 .save(pWriter);
 
 //鍛治型強化+1 シリーズ

@@ -30,6 +30,10 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryBlocks.STEEL_BLOCK.get());
                         pOutput.accept(SSweaponryItems.BONED_CHICKEN.get());
                         pOutput.accept(SSweaponryItems.MYTHIC_BONED_CHICKEN.get());
+                        pOutput.accept(SSweaponryItems.BONED_PORKCHOP.get());
+                        pOutput.accept(SSweaponryItems.MYTHIC_BONED_PORKCHOP.get());
+                        pOutput.accept(SSweaponryItems.BONED_BEEF.get());
+                        pOutput.accept(SSweaponryItems.MYTHIC_BONED_BEEF.get());
                         //木
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.WOODEN_SWORD_PLUS2.get());
