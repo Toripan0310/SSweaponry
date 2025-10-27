@@ -61,7 +61,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter, "ssweaponry:sssmithing_template_add");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSweaponryItems.SSSMITHING_TEMPLATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSweaponryItems.SSSMITHING_TEMPLATE.get(),2)
                 .pattern("DDD")
                 .pattern("DAD")
                 .pattern("DDD")
