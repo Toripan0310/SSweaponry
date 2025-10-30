@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_steel_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "ssweaponry:steel_ingot"
+              "ssweaponry:steel_block"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "ssweaponry:steel_pickaxe"
+        "recipe": "minecraft:steel_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_ingot",
+      "has_steel_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "ssweaponry:steel_pickaxe"
+      "minecraft:steel_ingot"
     ]
   },
   "sends_telemetry_event": false

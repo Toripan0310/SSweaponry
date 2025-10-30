@@ -1,13 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "ssweaponry:wooden_sword_plus1"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_wooden_sword": {
+    "has_item": {
       "conditions": {
         "items": [
           {
@@ -18,11 +12,17 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ssweaponry:wooden_sword_plus1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_wooden_sword",
+      "has_item",
       "has_the_recipe"
     ]
   ],

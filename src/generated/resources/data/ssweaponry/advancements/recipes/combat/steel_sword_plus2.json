@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_sword_plus1": {
+    "has_item": {
       "conditions": {
         "items": [
           {
             "items": [
-              "ssweaponry:steel_sword_plus1"
+              "ssweaponry:steel_sword"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_steel_sword_plus1",
+      "has_item",
       "has_the_recipe"
     ]
   ],

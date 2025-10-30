@@ -7,7 +7,7 @@
     "item": "minecraft:wooden_sword"
   },
   "result": {
-    "item": "ssweaponry:wooden_sword_plus1"
+    "item": "minecraft:wooden_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

@@ -36,7 +36,7 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.TORIPAN, "Toripan");
         addItem(SSweaponryItems.INFINITE_TORIPAN, "Infinite Toripan");
 //plus1
-        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "Wooden Sword+1");
+/*        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "Wooden Sword+1");
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "Stone Sword+1");
         addItem(SSweaponryItems.IRON_SWORD_PLUS1, "Iron Sword+1");
         addItem(SSweaponryItems.STEEL_SWORD_PLUS1, "Steel Sword+1");
@@ -73,6 +73,8 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.GOLDEN_SWORD_PLUS5, "Golden Sword+5");
         addItem(SSweaponryItems.DIAMOND_SWORD_PLUS5, "Diamond Sword+5");
         addItem(SSweaponryItems.NETHERITE_SWORD_PLUS5, "Netherite Sword+5");
+
+ */
 
         add("creativetabs.ssweaponry_tab", "SSweaponry");
         addBlock(SSweaponryBlocks.STEEL_BLOCK, "Steel Block");

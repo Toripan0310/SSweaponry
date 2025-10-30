@@ -4,10 +4,10 @@
     "item": "ssweaponry:ssweapon_star_tier2"
   },
   "base": {
-    "item": "ssweaponry:netherite_sword_plus1"
+    "item": "minecraft:netherite_sword"
   },
   "result": {
-    "item": "ssweaponry:netherite_sword_plus2"
+    "item": "minecraft:netherite_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

@@ -27,7 +27,6 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.STEEL_SHOVEL, "鋼鉄シャベル");
         addItem(SSweaponryItems.STEEL_PICKAXE, "鋼鉄ピッケル");
         addItem(SSweaponryItems.STEEL_SWORD, "鋼鉄の剣");
-        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
         addItem(SSweaponryItems.BONED_CHICKEN, "骨付き鶏肉");
         addItem(SSweaponryItems.MYTHIC_BONED_CHICKEN, "神話級骨付き鶏肉");
         addItem(SSweaponryItems.BONED_PORKCHOP, "骨付き豚肉");
@@ -37,6 +36,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.TORIPAN, "Toripan");
         addItem(SSweaponryItems.INFINITE_TORIPAN, "Infinite Toripan");
 //plus1
+/*        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "石の剣+1");
         addItem(SSweaponryItems.IRON_SWORD_PLUS1, "鉄の剣+1");
         addItem(SSweaponryItems.STEEL_SWORD_PLUS1, "鋼鉄の剣+1");
@@ -75,6 +75,8 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.GOLDEN_SWORD_PLUS5, "金の剣+5");
         addItem(SSweaponryItems.DIAMOND_SWORD_PLUS5, "ダイヤの剣+5");
         addItem(SSweaponryItems.NETHERITE_SWORD_PLUS5, "ネザライトの剣+5");
+
+ */
 
 
         add("creativetabs.ssweaponry_tab", "SS武器");

@@ -4,10 +4,10 @@
     "item": "ssweaponry:ssweapon_star_tier2"
   },
   "base": {
-    "item": "ssweaponry:stone_sword_plus1"
+    "item": "minecraft:stone_sword"
   },
   "result": {
-    "item": "ssweaponry:stone_sword_plus2"
+    "item": "minecraft:stone_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

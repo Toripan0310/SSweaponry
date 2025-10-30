@@ -1,28 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "ssweaponry:wooden_sword_plus3"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_wooden_sword_plus2": {
+    "has_item": {
       "conditions": {
         "items": [
           {
             "items": [
-              "ssweaponry:wooden_sword_plus2"
+              "minecraft:wooden_sword"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ssweaponry:wooden_sword_plus3"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_wooden_sword_plus2",
+      "has_item",
       "has_the_recipe"
     ]
   ],

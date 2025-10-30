@@ -93,7 +93,7 @@ public class SSweaponryItems {
     public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel",
             () -> new ShovelItem(STEEL_TIER, 2, -3.0f, new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> WOODEN_SWORD_PLUS1 = ITEMS.register("wooden_sword_plus1", () ->
+/*    public static final RegistryObject<Item> WOODEN_SWORD_PLUS1 = ITEMS.register("wooden_sword_plus1", () ->
             new GlowingSwordItem(Tiers.WOOD,
                     5,
                     -2.2f,
@@ -274,6 +274,7 @@ public class SSweaponryItems {
                     new Item.Properties().fireResistant().rarity(SSweaponryRarities.LEGENDARY)));
 
 
+ */
     //アイテムイベントバスを作成
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

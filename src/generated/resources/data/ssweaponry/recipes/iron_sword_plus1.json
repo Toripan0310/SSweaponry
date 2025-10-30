@@ -7,7 +7,7 @@
     "item": "minecraft:iron_sword"
   },
   "result": {
-    "item": "ssweaponry:iron_sword_plus1"
+    "item": "minecraft:iron_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

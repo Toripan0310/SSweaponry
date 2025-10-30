@@ -7,7 +7,7 @@
     "item": "minecraft:golden_sword"
   },
   "result": {
-    "item": "ssweaponry:golden_sword_plus1"
+    "item": "minecraft:golden_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

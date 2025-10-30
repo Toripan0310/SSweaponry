@@ -161,7 +161,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .save(pWriter);
 
 //鍛治型強化+1 シリーズ
-        SmithingTransformRecipeBuilder.smithing(
+/*        SmithingTransformRecipeBuilder.smithing(
                 Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
                 Ingredient.of(Items.WOODEN_SWORD),
                 Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
@@ -554,6 +554,8 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_steel_sword_plus4", has(SSweaponryItems.STEEL_SWORD_PLUS4.get()))
                 .save(pWriter, "ssweaponry:steel_sword_plus5");
+
+ */
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,

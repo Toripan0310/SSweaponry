@@ -7,7 +7,7 @@
     "item": "minecraft:diamond_sword"
   },
   "result": {
-    "item": "ssweaponry:diamond_sword_plus1"
+    "item": "minecraft:diamond_sword"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

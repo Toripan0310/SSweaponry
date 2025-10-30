@@ -41,7 +41,7 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.BONED_BEEF.get());
                         pOutput.accept(SSweaponryItems.MYTHIC_BONED_BEEF.get());
                         //鋼鉄
-                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS1.get());
+/*                        pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS1.get());
                         pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS2.get());
                         pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS3.get());
                         pOutput.accept(SSweaponryItems.STEEL_SWORD_PLUS4.get());
@@ -82,6 +82,9 @@ public class SSweaponryTabs {
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS3.get());
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS4.get());
                         pOutput.accept(SSweaponryItems.NETHERITE_SWORD_PLUS5.get());
+
+
+ */
                     }))
                     .build());
 
