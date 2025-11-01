@@ -4,10 +4,10 @@
     "item": "ssweaponry:ssweapon_star_tier3"
   },
   "base": {
-    "item": "minecraft:diamond_sword"
+    "item": "ssweaponry:diamond_sword_plus2"
   },
   "result": {
-    "item": "minecraft:diamond_sword"
+    "item": "ssweaponry:diamond_sword_plus3"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

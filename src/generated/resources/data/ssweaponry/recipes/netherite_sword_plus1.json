@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_sword"
   },
   "result": {
-    "item": "minecraft:netherite_sword"
+    "item": "ssweaponry:netherite_sword_plus1"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

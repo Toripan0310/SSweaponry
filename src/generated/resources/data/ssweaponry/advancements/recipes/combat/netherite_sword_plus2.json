@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_netherite_sword_plus1": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherite_sword"
+              "ssweaponry:netherite_sword_plus1"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_item",
+      "has_netherite_sword_plus1",
       "has_the_recipe"
     ]
   ],

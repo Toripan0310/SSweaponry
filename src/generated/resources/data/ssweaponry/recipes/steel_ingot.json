@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "cookingtime": 100,
-  "experience": 0.8,
-  "ingredient": {
-    "item": "minecraft:iron_ingot"
-  },
-  "result": "ssweaponry:steel_ingot"
+  "ingredients": [
+    {
+      "item": "ssweaponry:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "ssweaponry:steel_ingot"
+  }
 }

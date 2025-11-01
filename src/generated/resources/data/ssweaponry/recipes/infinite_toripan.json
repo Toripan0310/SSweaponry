@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "L": {
+      "item": "minecraft:blaze_rod"
+    },
+    "T": {
+      "item": "ssweaponry:toripan"
+    }
+  },
+  "pattern": [
+    " B ",
+    "LTL",
+    " B "
+  ],
+  "result": {
+    "item": "ssweaponry:infinite_toripan"
+  },
+  "show_notification": true
+}

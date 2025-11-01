@@ -22,13 +22,13 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 SSweaponryBlocks.STEEL_BLOCK.get());
 //鋼鉄インゴット
         SimpleCookingRecipeBuilder.blasting(
-                Ingredient.of(Items.IRON_INGOT),
-                RecipeCategory.MISC,
-                SSweaponryItems.STEEL_INGOT.get(),
-                0.8f,
-                100
+                        Ingredient.of(Items.IRON_INGOT),
+                        RecipeCategory.MISC,
+                        SSweaponryItems.STEEL_INGOT.get(),
+                        0.8f,
+                        100
 
-        )
+                )
                 .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
                 .save(pWriter, "ssweaponry:steel_ingot_from_blasting");
 //ウィザーロッド
@@ -36,7 +36,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .pattern("iyi")
                 .pattern("ixi")
                 .pattern("isi")
-                .define('x',Items.NETHER_STAR)
+                .define('x', Items.NETHER_STAR)
                 .define('y', Items.WITHER_SKELETON_SKULL)
                 .define('s', Items.STICK)
                 .define('i', SSweaponryItems.STEEL_INGOT.get())
@@ -61,7 +61,7 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_diamod", has(Items.DIAMOND))
                 .save(pWriter, "ssweaponry:sssmithing_template_add");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSweaponryItems.SSSMITHING_TEMPLATE.get(),2)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SSweaponryItems.SSSMITHING_TEMPLATE.get(), 2)
                 .pattern("DDD")
                 .pattern("DAD")
                 .pattern("DDD")
@@ -161,13 +161,13 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 .save(pWriter);
 
 //鍛治型強化+1 シリーズ
-/*        SmithingTransformRecipeBuilder.smithing(
-                Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
-                Ingredient.of(Items.WOODEN_SWORD),
-                Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
-                RecipeCategory.COMBAT,
-                SSweaponryItems.WOODEN_SWORD_PLUS1.get()
-        )
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(SSweaponryItems.SSSMITHING_TEMPLATE.get()),
+                        Ingredient.of(Items.WOODEN_SWORD),
+                        Ingredient.of(SSweaponryItems.SSWEAPON_STAR.get()),
+                        RecipeCategory.COMBAT,
+                        SSweaponryItems.WOODEN_SWORD_PLUS1.get()
+                )
                 .unlocks("has_wooden_sword", has(Items.WOODEN_SWORD))
                 .save(pWriter, "ssweaponry:wooden_sword_plus1");
 
@@ -554,8 +554,6 @@ public class SSweaponryRecipeProvider extends RecipeProvider {
                 )
                 .unlocks("has_steel_sword_plus4", has(SSweaponryItems.STEEL_SWORD_PLUS4.get()))
                 .save(pWriter, "ssweaponry:steel_sword_plus5");
-
- */
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer,

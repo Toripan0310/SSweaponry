@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ssweaponry:item/wooden_sword_plus1"
+  }
+}

@@ -6,6 +6,7 @@ import com.github.toripan0310.ssweaponry.datagen.client.JAJPLanguageProvider;
 import com.github.toripan0310.ssweaponry.datagen.client.SSweaponryBlockStateProvider;
 import com.github.toripan0310.ssweaponry.datagen.client.SSweaponryItemModelProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.SSweaponryBlockTagsProvider;
+import com.github.toripan0310.ssweaponry.datagen.server.SSweaponryRecipeProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.loot.SSweaponryGlobalLootModifierProvider;
 import com.github.toripan0310.ssweaponry.datagen.server.loot.SSweaponryLootTables;
 import net.minecraft.core.HolderLookup;
@@ -38,5 +39,6 @@ public class SSweaponryDataGenerators {
         generator.addProvider(event.includeServer(), SSweaponryLootTables.create(packOutput));
         generator.addProvider(event.includeServer(), new SSweaponryBlockTagsProvider(packOutput, lookUpProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new SSweaponryGlobalLootModifierProvider(packOutput));
+        generator.addProvider(event.includeServer(), new SSweaponryRecipeProvider(packOutput));
     }
 }

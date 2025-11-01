@@ -113,6 +113,12 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
@@ -124,6 +130,9 @@ repositories {
 }
 
 dependencies {
+    implementation fg.deobf("curse.maven:spartan-weaponry-278141:6842571")
+    implementation fg.deobf("curse.maven:jei-238222:7037120")
+    implementation fg.deobf("curse.maven:appleskin-248787:4770828")
     // Specify the version of Minecraft to use.
     // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
     // The "userdev" classifier will be requested and setup by ForgeGradle.

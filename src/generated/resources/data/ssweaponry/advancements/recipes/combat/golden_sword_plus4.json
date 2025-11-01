@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_golden_sword_plus3": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:golden_sword"
+              "ssweaponry:golden_sword_plus3"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_item",
+      "has_golden_sword_plus3",
       "has_the_recipe"
     ]
   ],

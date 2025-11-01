@@ -36,7 +36,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.TORIPAN, "Toripan");
         addItem(SSweaponryItems.INFINITE_TORIPAN, "Infinite Toripan");
 //plus1
-/*        addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
+       addItem(SSweaponryItems.WOODEN_SWORD_PLUS1, "木の剣+1");
         addItem(SSweaponryItems.STONE_SWORD_PLUS1, "石の剣+1");
         addItem(SSweaponryItems.IRON_SWORD_PLUS1, "鉄の剣+1");
         addItem(SSweaponryItems.STEEL_SWORD_PLUS1, "鋼鉄の剣+1");
@@ -76,7 +76,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(SSweaponryItems.DIAMOND_SWORD_PLUS5, "ダイヤの剣+5");
         addItem(SSweaponryItems.NETHERITE_SWORD_PLUS5, "ネザライトの剣+5");
 
- */
+
 
 
         add("creativetabs.ssweaponry_tab", "SS武器");

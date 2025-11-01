@@ -35,7 +35,7 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
         basicItem(SSweaponryItems.WITHER_LOD.get());
 
         //木の剣のモデル
-/*        withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS1.getId().getPath(),
+        withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS1.getId().getPath(),
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/wooden_sword_plus1"));
         withExistingParent(SSweaponryItems.WOODEN_SWORD_PLUS2.getId().getPath(),
@@ -147,6 +147,5 @@ public class SSweaponryItemModelProvider extends ItemModelProvider {
                 mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/steel_sword_plus5"));
 
- */
     }
 }

@@ -4,10 +4,10 @@
     "item": "ssweaponry:ssweapon_star_tier5"
   },
   "base": {
-    "item": "minecraft:golden_sword"
+    "item": "ssweaponry:golden_sword_plus4"
   },
   "result": {
-    "item": "minecraft:golden_sword"
+    "item": "ssweaponry:golden_sword_plus5"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ssweaponry:item/netherite_sword_plus4"
+  }
+}

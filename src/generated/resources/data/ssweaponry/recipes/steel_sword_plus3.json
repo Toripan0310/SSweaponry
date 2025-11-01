@@ -4,10 +4,10 @@
     "item": "ssweaponry:ssweapon_star_tier3"
   },
   "base": {
-    "item": "ssweaponry:steel_sword"
+    "item": "ssweaponry:steel_sword_plus2"
   },
   "result": {
-    "item": "ssweaponry:steel_sword"
+    "item": "ssweaponry:steel_sword_plus3"
   },
   "template": {
     "item": "ssweaponry:sssmithing_template"
